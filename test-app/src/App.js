@@ -1,25 +1,18 @@
 import './App.css';
-// eslint-disable-next-line
-import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
-// eslint-disable-next-line
-import StatefulGreeting from './components/ClassGreeting';
-// eslint-disable-next-line
-import StatefulGreetingWithCallback from './components/ClassGreetingWithCallback';
-// eslint-disable-next-line
-import StatefulGreetingWithPrevState from './components/ClassGreetingWithPrevState';
-// eslint-disable-next-line
-import EventsClass from './components/EventsClass';
-// eslint-disable-next-line
-import EventsFunctional from './components/EventsFunctional';
-// eslint-disable-next-line
-import EventBinding from './components/EventBinding';
-// eslint-disable-next-line
-import ConditionalRenderingClass from './components/ConditionalRenderingClass';
-// eslint-disable-next-line
-import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
-// eslint-disable-next-line
-import NestingComponents from './components/NestingComponents';
-import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+//import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
+//import StatefulGreeting from './components/ClassGreeting';
+//import StatefulGreetingWithCallback from './components/ClassGreetingWithCallback';
+//import StatefulGreetingWithPrevState from './components/ClassGreetingWithPrevState';
+//import EventsClass from './components/EventsClass';
+//import EventsFunctional from './components/EventsFunctional';
+//import EventBinding from './components/EventBinding';
+//import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+//import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+//import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+//import RenderingLists from './components/RenderingLists';
+//import LifeCyclesCDM from './components/LifeCyclesCDM';
+//import LifeCyclesCDU from './components/LifeCyclesCDU';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
 
 function App() {
   return (
@@ -33,8 +26,12 @@ function App() {
       <EventBinding />
       <ConditionalRenderingClass />
       <ConditionalRenderingFunctional connected={false} />
-      <NestingComponents />*/}
+      <NestingComponents />
       <MethodsAsPropsParent />
+      <RenderingLists />
+      <LifeCyclesCDM />
+      <LifeCyclesCDU />*/}
+      <LifeCyclesCWU />
     </div>
   );
 }
