@@ -15,7 +15,14 @@ import './App.css';
 //import LifeCyclesCWU from './components/LifeCyclesCWU';
 //import ControlledForm from './components/ControlledForm';
 //import UncontrolledForm from './components/UncontrolledForm';
-import SearchBar from './components/SearchBar';
+//import SearchBar from './components/SearchBar';
+//import HooksCounter from './components/HooksCounter';
+//import ClassCounter from './components/ClassCounter';
+//import ControlledFormHooks from './components/ControlledFormHooks';
+//import UseStateWithArrays from './components/UseStateWithArrays';
+//import UseStateWithObjects from './components/UseStateWithObjects';
+//import UseEffectCounter from './components/UseEffectCounter';
+import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 
 function App() {
   return (
@@ -36,8 +43,15 @@ function App() {
       <LifeCyclesCDU />
       <LifeCyclesCWU />
       <ControlledForm />
-      <UncontrolledForm />*/}
+      <UncontrolledForm />
       <SearchBar />
+      <HooksCounter />
+      <ClassCounter />
+      <ControlledFormHooks />
+      <UseStateWithArrays />
+      <UseStateWithObjects />
+      <UseEffectCounter />*/}
+      <UseEffectCounterContainer />
     </div>
   );
 }
