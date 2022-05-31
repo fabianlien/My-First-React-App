@@ -22,8 +22,8 @@ function UseEffectCounter() {
             setTime(time => time + 1)
         }, 1000);
         return () => {
-            console.log('cleaning up!')
-            clearInterval(interval)
+            console.log('cleaning up!');
+            clearInterval(interval);
         }
     }, []) //leaving an empty array as the second parameter the useEffect will render only once (ergo when mounting).
 
